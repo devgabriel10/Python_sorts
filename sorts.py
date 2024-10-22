@@ -12,6 +12,7 @@ def selection_sort(list):
             list[j] = list[min_index]
             list[min_index] = aux
 
+            
 def bubble_sort(list):
     n = len(list)
     for j in range(n-1):
